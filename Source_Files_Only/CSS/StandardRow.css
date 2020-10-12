@@ -1,0 +1,36 @@
+.standardRow{
+    display: flex;
+}
+
+.standardRow_actions{
+    flex: 0.3;
+    display: flex;
+}
+
+.standardRow_standard{
+    flex: 0.7;
+    display: flex;
+    align-items: center;
+}
+
+.standardRow_standard > p{
+   color: skyblue;
+   font-weight: 800;
+   font-size: 18px;
+}
+
+.standardRow_block{
+    padding: 20px;
+    background-color: lightgrey;
+    margin-right: 50px;
+}
+
+.standardRow_input{
+    border: none;
+    width: 100%;
+    background-color: white;
+    font-weight: 800;
+    font-size: 18px;
+    color: aquamarine;
+}
+

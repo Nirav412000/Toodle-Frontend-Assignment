@@ -1,0 +1,34 @@
+.header{
+     display: flex;
+     flex-direction: column;
+}
+
+.header_title{
+    color: grey;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.header_subtitles{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header_action{
+    flex: 0.3;
+}
+
+.header_standard{
+    flex: 0.7;
+}
+
+.header_action > p{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.header_standard > p{
+    font-size: 12px;
+    font-weight: 200;
+}

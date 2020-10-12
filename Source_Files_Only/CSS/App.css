@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+}
+
+.app{
+  padding: 150px;
+}
+
+.app_addButton{
+    width: 100%;
+    background-color: #2D79C4;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 43%;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.app_addButton:hover{
+   cursor: pointer;
+}
+
+.app_StoreLoad{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.app_StoreLoad > button {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+}
+
+.app_StoreLoad > button:hover{
+    cursor: pointer;
+}
+
+.app_saveButton{
+   background-color: lightcoral;
+}
+
+.app_loadButton{
+   background-color: deepskyblue;
+}
+
+.app_clearButton{
+    background-color: limegreen;
+}
+
